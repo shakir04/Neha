@@ -1,30 +1,8 @@
-<p align="center">
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
-  
-  <img src="https://graph.org/file/29c714c26e0df52fa7477.jpg" alt="ROSE BUCKET Logo">
-  <img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
-<h1 align="center">
- JISSHU-BOT 
-</>
-  <img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
-<h1> <img src="https://te.legra.ph/file/274cef853f5f608a83a16.jpg" width="70px" style="border-radius: 50%"> ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ </h1>
-  
-[<img src="https://raw.githubusercontent.com/Jisshubot/Jisshubot/master/resources/telegram_icon.png" width="60px">](https://telegram.im/@JISSHU_BOTS) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/github_icon.png" width="60px">](https://github.com/Jisshubot) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/youtube_icon.png" width="60px">](https://www.youtube.com/@JISSHU-BOTS) [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/insta_icon.png" width="60px">](https://instagram.com/Zishan_khan565)
 
-[<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/hr.gif"/>](https://github.com/Jisshubot)
-
-
- 
-
- [<img src="https://raw.githubusercontent.com/Jisshubot/Jisshubot/master/resources/telegram_icon.png" width="100px">](https://telegram.im/@JISSHU_BOTS) 
-   </br>
- JOIN CHANNEL 
-  
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 
 ## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
- hai 
-- [x] Stram Feature Added With Many Player Support
+ 
+- [x] Stream Feature Added With Many Player Support
 - [x] Language & Season Support
 - [x] Custom Tutorial Button
 - [x] Bot Pm File Auto Delete added
@@ -66,9 +44,9 @@
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 
-<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.dog/JISSHU_BOTS'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
+<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.dog/paid_method_zone'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
 
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
+<img src="https://github.com/shakir04/Neha/blob/master/resources/hr.gif"/>
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
@@ -111,7 +89,6 @@ delg - 𝑇𝑜 𝑑𝑒𝑙𝑒𝑡𝑒 𝑎 𝑠𝑝𝑒𝑐𝑖𝑓𝑖𝑐 �
 delallg - 𝑇𝑜 𝑑𝑒𝑙𝑒𝑡𝑒 𝑎𝑙𝑙 𝑔𝑙𝑜𝑏𝑎𝑙 𝑓𝑖𝑙𝑡𝑒𝑟𝑠 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑏𝑜𝑡'𝑠 𝑑𝑎𝑡𝑎𝑏𝑎𝑠𝑒.
 deletefiles - 𝑇𝑜 𝑑𝑒𝑙𝑒𝑡𝑒 𝑃𝑟𝑒𝐷𝑉𝐷 𝑎𝑛𝑑 𝐶𝑎𝑚𝑅𝑖𝑝 𝐹𝑖𝑙𝑒𝑠 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑏𝑜𝑡'𝑠 𝑑𝑎𝑡𝑎𝑏𝑎𝑠𝑒.
 ```
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 
 ## Variables
 
@@ -121,16 +98,16 @@ deletefiles - 𝑇𝑜 𝑑𝑒𝑙𝑒𝑡𝑒 𝑃𝑟𝑒𝐷𝑉𝐷 𝑎�
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/I36_OTWvT2w)
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). 
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 * `FDQN`: Add Your Deploy Server App url Must Add this Stream Working Properly.
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/Jisshubot/JISSHU_BOT/blob/main/info.py) for more optional variables
+* Check [info.py](https://github.com/shakir04/Neha/blob/main/info.py) for more optional variables
 
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
+
 
 <details><summary>Deploy To Render</summary>
 <br>
@@ -138,7 +115,7 @@ deletefiles - 𝑇𝑜 𝑑𝑒𝑙𝑒𝑡𝑒 𝑃𝑟𝑒𝐷𝑉𝐷 𝑎�
 Use these commands:
 <br>
 
-<a href="https://render.com/deploy?repo=https://github.com/Jisshubot/JISSHU_BOT/tree/JISSHU">
+<a href="https://render.com/deploy?repo=https://github.com/shakir04/Neha/tree/JISSHU">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 
 </details>
@@ -146,7 +123,7 @@ Use these commands:
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Jisshubot/JISSHU_BOT">
+<a href="https://heroku.com/deploy?template=https://github.com/shakir04/Neha">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -158,7 +135,7 @@ Use these commands:
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Jisshubot/JISSHU_BOT-branch=Tech_Jisshu&name=JISSHU_BOT)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/shakir04/Neha-branch=Tech_Jisshu&name=Neha)
 </details>
 
 
@@ -166,7 +143,7 @@ Use these commands:
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Jisshubot/JISSHU-BOT
+git clone https://github.com/shakir04/Neha
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -176,32 +153,3 @@ python3 bot.py
 </details>
 
 
-
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
-
-## Thanks to ⚡
- - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To jisshu For His Awesome [Media-Search-bot](https://github.com/zishankhan12)
- - Thanks To [JISSHU-BOT](https://youtube.com)
- - Thanks To ALIYA 
- - Thanks To template redesigned by ELITECRAFT STUDIOS
-
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
-
-## Note 🏷️
- 
-* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.im/@JISSHU_BOTS)
-* * [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.im/@IM_JISSHU)
-
-[Note To A So Called Dev](https://telegram.im/JISSHU_BOTS): 
-
-Fork the repo and edit as per your needs.
-
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
-
-python3 bot.py
-</pre>
-</p>
-</details>
-
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
