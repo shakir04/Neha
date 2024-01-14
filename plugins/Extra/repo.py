@@ -1,6 +1,4 @@
-# Don't Remove Credit @movie_file_20
-# Subscribe YouTube Channel For Amazing Bot @movie_file_20
-# Ask Doubt on telegram @KingVJ01
+
 
 
 import logging
@@ -35,7 +33,7 @@ async def git(Kashmira, message):
 
 <b>Open Issues :</b> <i>{qw.get("open_issues")}</i>
 
-<b>Powed by :</b> @mr_shakir_04
+<b>Powered by :</b> @mr_shakir_04
 
 """
         if qw.get("description"):
