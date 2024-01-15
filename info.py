@@ -16,8 +16,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '22561857'))
-API_HASH = environ.get('API_HASH', '6581d3daf4b40f722a22ddb5ca1281c2')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -30,8 +30,8 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 PICS_JOIN = (environ.get('PICS_JOIN', 'https://graph.org/file/aafda289da8b859cc23aa.jpg')).split()
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5672857559').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001942980809').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -63,7 +63,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/paid_method_zone_discussion')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+oK1uexmRYY82ZDBl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/paid_method_zone_discussion')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', ' Developed By ModderKing ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', ' Powered By ModderKing ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001864434358'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movie_fo')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
