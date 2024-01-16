@@ -1,5 +1,3 @@
-
-
 import pymongo
 from info import DATABASE_URI, DATABASE_NAME
 from pyrogram import enums
