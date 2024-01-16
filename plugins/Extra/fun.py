@@ -1,5 +1,3 @@
-
-
 from pyrogram import Client, filters
 
 # AESTHETIC------------ https://telegram.me/Josprojects ------------ #
