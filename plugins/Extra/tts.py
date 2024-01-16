@@ -1,6 +1,3 @@
-
-
-
 import traceback
 from asyncio import get_running_loop
 from io import BytesIO
