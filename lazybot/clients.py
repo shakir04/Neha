@@ -1,6 +1,3 @@
-
-
-#Thanks @Lazy helping this journey 
 import asyncio
 import logging
 from info import *
