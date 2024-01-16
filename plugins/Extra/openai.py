@@ -1,5 +1,3 @@
-
-
 from pyrogram import Client, filters
 from plugins.Extra.engine import ask_ai
 
