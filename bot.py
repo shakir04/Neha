@@ -1,6 +1,3 @@
-
-
-
 import sys
 import glob
 import importlib
@@ -97,4 +94,3 @@ if __name__ == '__main__':
         loop.run_until_complete(Lazy_start())
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
-
