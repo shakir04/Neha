@@ -1,6 +1,3 @@
-
-
-
 import os
 from pyrogram import Client, filters
 from urllib.parse import quote
