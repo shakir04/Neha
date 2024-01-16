@@ -1,5 +1,3 @@
-# Don't Remove Creadits because You are not a repo seller 😁
-
 from pyrogram import Client, filters
 
 @Client.on_message(filters.command(["stickerid"]))
