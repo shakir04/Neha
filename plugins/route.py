@@ -1,5 +1,3 @@
-
-
 from aiohttp import web
 import re
 import math
