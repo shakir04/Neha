@@ -1,5 +1,3 @@
-
-
 import openai
 
 async def ai(query):
