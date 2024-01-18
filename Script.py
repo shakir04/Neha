@@ -24,7 +24,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
  ‣ ᴍʏ ɴᴀᴍᴇ : ｍｏｄｄｅｒｋｉｎｇ
  ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/mr_shakir_04'>ᴍʀ_ꜱʜᴀᴋɪʀ_04</a> 
  ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : ᴀɴʏᴡʜᴇʀᴇ
- ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.2 [sᴛᴀʙʟᴇ]></b>"""
+ ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.4 [sᴛᴀʙʟᴇ]></b>"""
 
     SOURCE_TXT = """
 <b>Hᴇʏ, NOTE:
@@ -434,7 +434,7 @@ BOT WORKING PROPERLY"""
 
  எப்படி மற்றும் என்ன செய்ய வேண்டும்
 
- படி 1: இந்த Moviez Zone Bot போட் உங்கள் குழுவை நிர்வாகியாக்குங்கள்
+ படி 1: இந்த @movies_zone_sk_bot போட் உங்கள் குழுவை நிர்வாகியாக்குங்கள்
 
  படி 2: உங்கள் இணையதளம் மற்றும் API ஐச் சேர்க்கவும்
 
@@ -461,7 +461,7 @@ Hey <a href='tg://settings'>My Friend</a>
 
  How and what to do
 
- Step 1: Administer this Moviez Zone Bot bot to your group
+ Step 1: Administer this @movies_zone_sk_bot bot to your group
 
  Step 2: Add your website and API
 
@@ -488,7 +488,7 @@ Also your tutorial will be Added Your Group..."""
 
  ఎలా మరియు ఏమి చేయాలి
 
- దశ 1: ఈ Moviez Zone Bot బాట్‌ని మీ సమూహానికి నిర్వహించండి
+ దశ 1: ఈ @movies_zone_sk_bot బాట్‌ని మీ సమూహానికి నిర్వహించండి
 
  దశ 2: మీ వెబ్‌సైట్ మరియు APIని జోడించండి
 
@@ -515,7 +515,7 @@ Also your tutorial will be Added Your Group..."""
 
  कैसे और क्या करना है
 
- चरण 1: इस Moviez Zone Bot बॉट को अपने समूह में प्रशासित करें
+ चरण 1: इस @movies_zone_sk_bot बॉट को अपने समूह में प्रशासित करें
 
  चरण 2: अपनी वेबसाइट और एपीआई जोड़ें
 
@@ -569,7 +569,7 @@ Also your tutorial will be Added Your Group..."""
 
  کیسے اور کیا کرنا ہے۔
 
- مرحلہ 1: اپنے گروپ میں اس Moviez Zone Bot بوٹ کا انتظام کریں۔
+ مرحلہ 1: اپنے گروپ میں اس @movies_zone_sk_bot بوٹ کا انتظام کریں۔
 
  مرحلہ 2: اپنی ویب سائٹ اور API شامل کریں۔
 
@@ -596,7 +596,7 @@ Also your tutorial will be Added Your Group..."""
 
  કેવી રીતે અને શું કરવું
 
- પગલું 1: તમારા જૂથમાં આ Moviez Zone Bot બોટનું સંચાલન કરો
+ પગલું 1: તમારા જૂથમાં આ @movies_zone_sk_bot બોટનું સંચાલન કરો
 
  પગલું 2: તમારી વેબસાઇટ અને API ઉમેરો
 
@@ -648,7 +648,7 @@ Also your tutorial will be Added Your Group..."""
 
  কিভাবে এবং কি করতে হবে
 
- ধাপ 1: আপনার গ্রুপে এই Moviez Zone Bot বট পরিচালনা করুন
+ ধাপ 1: আপনার গ্রুপে এই @movies_zone_sk_bot বট পরিচালনা করুন
 
  ধাপ 2: আপনার ওয়েবসাইট এবং API যোগ করুন
 
