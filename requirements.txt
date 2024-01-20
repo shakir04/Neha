@@ -1,4 +1,3 @@
-git+https://github.com/shakir04/pyrogram 
 pyrogram==2.0.106
 tgcrypto 
 pymongo[srv]==3.12.3 
