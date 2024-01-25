@@ -461,7 +461,7 @@ Hey <a href='tg://settings'>My Friend</a>
 
  How and what to do
 
- Step 1: Administer this @movies_zone_sk_bot bot to your group
+ Step 1: Administer this movies zone bot to your group
 
  Step 2: Add your website and API
 
@@ -515,7 +515,7 @@ Also your tutorial will be Added Your Group..."""
 
  कैसे और क्या करना है
 
- चरण 1: इस @movies_zone_sk_bot बॉट को अपने समूह में प्रशासित करें
+ चरण 1: इस movies zone बॉट को अपने समूह में प्रशासित करें
 
  चरण 2: अपनी वेबसाइट और एपीआई जोड़ें
 
