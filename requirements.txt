@@ -19,7 +19,7 @@ git+https://github.com/shakir04/pyrogram
   
  
  #---ytdl----# 
- ffmpeg
+ffmpeg
 youtube_search
 youtube-search-python==1.4.6
 yt-dlp
@@ -45,6 +45,7 @@ requests
  pytz
  aiofiles
  dnspython==2.3.0
+
  ### googletrans==4.0.0-rc1 ###
 python-decouple
 ffmpeg-python>=0.2.0
