@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},
+    START_TXT = """<b>Hᴇʟʟᴏ {},👑
     
 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ.
 ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ  !!</b>"""
@@ -94,13 +94,13 @@ my features Stay here new features coming soon...
   
  ./info  - <code>ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.</code> 
   
- ./song - Download any song [<code>example /song vaa vaathi song</code>] 
+ ./song - Download any song [<code>example /song Tum Hi Ho song</code>] 
   
  ./telegraph - <code>Telegraph generator sen under 5MB video or photo I give telegraph link</code> 
   
  ./tts - <code>This command usage text to voice converter</code> 
   
- ./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/example</code>]
+ ./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
 
 ./font - This command usage stylish and cool font generator [<code>example /font hi</code>]"""
 
