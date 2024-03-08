@@ -248,13 +248,14 @@ async def start(client, message):
                 await verify_user(client, userid, token)
                 await message.reply_text(
                     text=f"<b>Hᴇʏ {message.from_user.mention}, Yᴏᴜ ᴀʀᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴠᴇʀɪғɪᴇᴅ !\nNᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ ᴀʟʟ ᴍᴏᴠɪᴇs ᴛɪʟʟ ᴛʜᴇ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ.</b>",
-                    protect_content=True,
+                    
             )
             await message.reply_photo(
                 photo='https://telegra.ph/file/99634722e5277095bf1e7.jpg',
                 caption=f"<b> {message.from_user.mention},</b>\n\nʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ✅️...\n\nɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ❤️‍🔥...",
-                reply_markup=InlineKeyboardMarkup(btn)
+                
             )
+            protect_content=True,
             await verify_user(client, userid, token)
         else:
             return await message.reply_text(
@@ -373,4 +374,4 @@ async def start(client, message):
                         [
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                         ], [
-                  
+                            InlineKeyboardB
