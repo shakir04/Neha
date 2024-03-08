@@ -237,6 +237,7 @@ async def start(client, message):
     elif data.split("-", 1)[0] == "verify":
         userid = data.split("-", 2)[1]
         token = data.split("-", 3)[2]
+        fileid = data.split("-", 3)[3]
         if str(message.from_user.id) != str(userid):
             return await message.reply_text(
                 text="<b>Invalid link or Expired link !</b>",
@@ -244,9 +245,20 @@ async def start(client, message):
             )
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
-            await message.reply_text(
-                text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all movies till today midnight.</b>",
-                protect_content=True
+                await verify_user(client, userid, token)
+                await message.reply_text(
+                    text=f"<b>Hᴇʏ {message.from_user.mention}, Yᴏᴜ ᴀʀᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴠᴇʀɪғɪᴇᴅ !\nNᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ ᴀʟʟ ᴍᴏᴠɪᴇs ᴛɪʟʟ ᴛʜᴇ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ.</b>",
+                    protect_content=True,
+                    reply_markup=InlineKeyboardMarkup(btn)
+                )
+                return
+            btn = [[
+                InlineKeyboardButton("Get File", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
+            ]]
+            await message.reply_photo(
+                photo='https://telegra.ph/file/99634722e5277095bf1e7.jpg',
+                caption=f"<b> {message.from_user.mention},</b>\n\nʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ✅️...\n\nɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ❤️‍🔥...",
+                reply_markup=InlineKeyboardMarkup(btn)
             )
             await verify_user(client, userid, token)
         else:
@@ -315,8 +327,10 @@ async def start(client, message):
                 f_caption = f"{' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
-                ]]
+                            InlineKeyboardButton("♻️  ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪꜰʏ  ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id))
+                        ],[
+                            InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://youtu.be/0c-i2Lol6LU")
+                    ]]
                 await message.reply_text(
                     text="<b>You are not verified !\nKindly verify to continue !</b>",
                     protect_content=True,
@@ -379,10 +393,12 @@ async def start(client, message):
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
-                ]]
+                            InlineKeyboardButton("♻️  ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪꜰʏ  ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id))
+                        ],[
+                            InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://youtu.be/0c-i2Lol6LU")
+                    ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b> {message.from_user.mention},</b>\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ,\nᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ɴᴏᴡ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ 😊\n\n<b>इस  बॉट  को  इस्तेमाल  करने  के  लिए  आपको  ᴠᴇʀɪꜰʏ  करना  होगा  नहीं  तो  आप  इसका  इस्तेमाल  नहीं  कर  पाएंगे ।</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -441,7 +457,7 @@ async def start(client, message):
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to continue !</b>",
+            text="<b> {message.from_user.mention},</b>\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ,\nᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ɴᴏᴡ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ 😊\n\n<b>इस  बॉट  को  इस्तेमाल  करने  के  लिए  आपको  ᴠᴇʀɪꜰʏ  करना  होगा  नहीं  तो  आप  इसका  इस्तेमाल  नहीं  कर  पाएंगे ।</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
