@@ -315,12 +315,12 @@ async def start(client, message):
                 f_caption = f"{' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                        InlineKeyboardButton("♻️  ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪꜰʏ  ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
-                        ],[
+                    InlineKeyboardButton("♻️  ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪꜰʏ  ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                ]],[
                             InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://t.me/modderkinggofficial/30")
                     ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b> {message.from_user.mention},</b>\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ,\nᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ɴᴏᴡ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ 😊\n\n<b>इस  बॉट  को  इस्तेमाल  करने  के  लिए  आपको  ᴠᴇʀɪꜰʏ  करना  होगा  नहीं  तो  आप  इसका  इस्तेमाल  नहीं  कर  पाएंगे ।</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -372,9 +372,4 @@ async def start(client, message):
                 )
             )
             await asyncio.sleep(1200)
-            await k.edit("<b>Your message is successfully deleted!!!</b>")
-            return
-    user = message.from_user.id
-    files_ = await get_file_details(file_id)           
-    if not files_:
-        pre, file_id = ((base64.urlsaf
+            await k.edit("<b>Your message is successfully deleted!!!</b
